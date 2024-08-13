@@ -11,23 +11,29 @@ Este projeto consiste em uma API backend desenvolvida em Node.js, e um frontend 
 
 ### Clonando o Repositório
 
-` git clone https://github.com/Deividdasilva/task-list.git `
-` cd task-list/docker `
+```bash
+git clone https://github.com/Deividdasilva/task-list.git
+cd task-list/docker
+```
 
 ### Iniciando os Containers
 
 Utilize o Docker Compose para iniciar os containers:
 
-` cd task-list/docker `
-` docker-compose up -d `
+```bash
+ cd task-list/docker 
+ docker-compose up -d
+```
 
 Este comando deve ser executado dentro do diretório task-list/docker.
 
 ### Executando os Testes
 Para rodar os testes automatizados da API, utilize o seguinte comando:
 
-` cd task-list/docker `
-` docker-compose up api-test `
+```bash
+cd task-list/docker
+docker-compose up api-test
+```
 
 Este comando deve ser executado dentro do diretório task-list/docker.
 
